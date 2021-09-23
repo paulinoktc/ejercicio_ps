@@ -1,0 +1,62 @@
+SOLID: Los primeros 5 principios del diseño orientado a objetos
+Estos principios están definidos para llevar una mejor programación en cuanto al mantenimiento y actualización del proyecto mientras crece.
+Las siglas son:
+S - Single-responsiblity Principle
+O - Open-closed Principle
+L - Liskov Substitution Principle
+I - Interface Segregation Principle
+D - Dependency Inversion Principle
+Por otro lado 
+
+1 - Single-Responsibility Principle
+Este principio de responsabilidad única establece que una clase va a tener una única función por ejemplo cuando se quiere obtener los resultados de dos objetos diferentes se usa un array aunque si se requiriera otro formato por ejemplo el formato json o html esta función o método para realizar dicho trabajo debería estar en otra clase diferente asi cada clase aria su propio trabajo. 
+
+2 - Open-closed Principle
+
+Esto nos dice que una entidad software tiene que quedar abierta para su extensión pero cerrada para su modificación aquí se hace uso del polimorfismo y herencia, para ello lo que nos dice es que tenemos que escribir código nuevo y no modificar código existente ya que esto podría generar errores, creando una interfaz se puede llegar a esta solución.
+
+3 - L - Liskov Substitution Principle
+
+Toda clase de que hija de otra clase debe poder utilizarse como si fuera el mismo padre, la implementación de interfaces es una solución que propone este principio, donde las clases solo implementaran las clases que necesiten usar y no mandar error en métodos que no se utilizan.
+4 - I - Interface Segregation Principle
+
+Nunca se debe obligar a un cliente a implementar una interfaz que no usa, o no se debe obligar a los clientes a depender de métodos que no usan.
+Hay clases que no necesariamente requieren de la implementación de la interfaz que otras clases usan porque simplemente no lo necesitan para ello se debe crear otra interfaz que solo lo usaran las clases que de verdad la necesiten.
+
+5 - D - Dependency Inversion Principle
+
+Las entidades deben depender de abstracciones, no de concreciones. Establece que el módulo de alto nivel no debe depender del módulo de bajo nivel, sino que debe depender de abstracciones.
+Hay ocasiones donde se debe cambiar la base de datos al no tener este principio presente se deben modificar algunas de los métodos o clases que dependan de la conexión realizando la conexión por interface  esta se puede cambiar fácilmente ya que no se depende obligatoriamente de la conexión.
+
+
+
+
+El modelo vista controlador es uno de los métodos mas utilizados donde como su nombre lo dice el programa se divide en tres partes que son:
+Modelo: solo contiene datos puros de la aplicación es decir no ejerce ninguna función lógica es el encargado se traer los datos de la base de datos.
+Vista: es donde el usuario puede ver los datos ordenados que se encuentran alojados en la base de datos de una forma más fácil de entender y poder interactuar con ellos.
+Controlador: este es el encargado de hacer la petición de los datos necesarios al modelo, contiene toda la lógica que se requiere para que el usuario pueda interactuar con la vista y los datos que se encuentran alojados este es el principal motor se podría decir ya que es el que controla tanto el modelo como las vistas.
+Algunas de las ventajas  es que varios desarrolladores pueden estar trabajado al mismo tiempo y los modelos pueden tener varias vistas.
+Una de las desventajas es que el conocimiento de múltiples tecnologías se convierte en la norma. Los desarrolladores que utilizan MVC deben ser expertos en múltiples tecnologías.
+
+Patrones de diseño MVC
+Paso 1
+Crear modelo.
+Paso 2
+Crear vista.
+Paso 3
+Crear controlador.
+Paso 4
+Utilice los métodos
+
+
+Arquitectura en capas
+
+Este patrón es el estándar de facto para la mayoría de las aplicaciones Java EE y, por lo tanto, es ampliamente conocido por la mayoría de arquitectos, diseñadores y desarrolladores.
+Los componentes se organizan en capas horizontales donde cada capa empeña  un papel específico dentro de la aplicación por ejemplo la lógica de presentación o lógica de negocios, no es un estándar pero regularmente estas están compuestas por cuatro capas que son presentación, negocio, persistencia y base de datos En algunos casos, la capa de negocio y la capa de persistencia se combinan en una sola capa de negocio.
+La capa de presentación se encarga de manejar la interfaz del usuario  y la lógica de comunicación del navegador mientras que la capa comercial se encarga de toda la comunicación con el navegador.
+ 
+
+Algunos principios de programación 
+KISS mantener un código simple para un mejor entendimiento evitar el uso de funciones sofisticadas del lenguaje de programación con el que se esté trabajando es decir solo se puede usar en caso de que hayan beneficios susceptibles 
+YAGNI enfocarse en el trabajo, hay algunas funcionalidades extras que pensamos que podemos utilizar más adelante más sin embargo hay trabajo por hacer y se debe acabar o atender primero lo que es prioridad y no un extra que probablemente ni se use y no se llegue a utilizar.
+DRY   se debe de tratar de mantener el comportamiento de una funcionalidad del sistema en una sola pieza de código. 
