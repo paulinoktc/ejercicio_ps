@@ -62,3 +62,5 @@ YAGNI enfocarse en el trabajo, hay algunas funcionalidades extras que pensamos q
 DRY   se debe de tratar de mantener el comportamiento de una funcionalidad del sistema en una sola pieza de código. 
 
 esta es una linea de cambio
+-------------------------------------------------------------------empieza rama issue_4321--------------------------
+rama issue_4321A
