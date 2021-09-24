@@ -60,3 +60,5 @@ Algunos principios de programación
 KISS mantener un código simple para un mejor entendimiento evitar el uso de funciones sofisticadas del lenguaje de programación con el que se esté trabajando es decir solo se puede usar en caso de que hayan beneficios susceptibles 
 YAGNI enfocarse en el trabajo, hay algunas funcionalidades extras que pensamos que podemos utilizar más adelante más sin embargo hay trabajo por hacer y se debe acabar o atender primero lo que es prioridad y no un extra que probablemente ni se use y no se llegue a utilizar.
 DRY   se debe de tratar de mantener el comportamiento de una funcionalidad del sistema en una sola pieza de código. 
+
+esta es una linea de cambio
